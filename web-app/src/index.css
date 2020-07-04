@@ -14,5 +14,17 @@ code {
 
 @font-face {
   font-family: 'Gilmer';
-  src: local('Gilmer'), url(./assets/fonts/Gilmer.otf) format('truetype');
+  src: local('Gilmer'), url(./assets/fonts/Gilmer.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'), url(./assets/fonts/avenir.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Aileron-UltraLight';
+  src: local('Aileron-UltraLight'), url(./assets/fonts/Aileron-UltraLight.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Aileron-Light';
+  src: local('Aileron-Light'), url(./assets/fonts/Aileron-Light.otf) format('opentype');
 }
