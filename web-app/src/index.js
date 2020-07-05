@@ -10,6 +10,7 @@ import * as serviceWorker from './serviceWorker';
 //import components
 import Home from './components/traveller/home';
 import Book from './components/traveller/book';
+import Boarding from './components/admin/boarding';
 
 ReactDOM.render(
   <Router>
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Route exact path="/" component={App} />
     <Route exact path="/home" component={Home} />
     <Route exact path="/book" component={Book} />
+    <Route exact path="/boarding" component={Boarding} />
     
   </div>
 </Router>,
